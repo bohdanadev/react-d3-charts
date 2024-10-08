@@ -1,5 +1,6 @@
 import './App.css';
 
+import Histogram from './charts/Histogram';
 import LineChart from './charts/LineChart';
 import TimeSeries from './charts/TimeSeries';
 
@@ -10,6 +11,7 @@ function App() {
       <div className='row'>
         <LineChart width={400} height={300} />
         <TimeSeries width={400} height={300} />
+        <Histogram width={400} height={400} />
       </div>
     </div>
   );
